@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+#background {
+    background-image: url(assets/gif/burger.gif);
+    filter: opacity(50%);
+}
+
+body {
+    font-family: "Mitr";
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.page {
+    padding: auto;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 7vh;
+    width: clamp(22.375rem, 22.375rem, 22.375rem);   
+    height: clamp(48.75rem, 1.0625rem + 3.125vw, 56rem);
+    background-color: #fff;
+    border-radius: 1rem;
+    border: 0.125rem solid #987554;
+    filter: drop-shadow(0 0 20px #987554);
+}
+
+.btn {
+    background-color: #e5d3b3;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    border-radius: 0.5rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    padding-left: 2.875rem;
+    padding-right: 2.875rem;
+}
+
+#Paint {
+    background-color: rgba(248, 249, 235, 1);
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    z-index: 1;
+}
